@@ -2,14 +2,15 @@
 # Projeto sobre diagnóstico, detecção e predição do cancer de mama
 Projeto sobre diagnóstico do cancer de mama com machine learning AI
 ___
-### Considerações:
+### Contextualização do objeto de estudos
 
-Existem duas classes previstas possíveis: 
-   - "1" and "0". Malignant 
-    - 1 (indicates prescence of cancer cells) and Benign 
-    - 0 (indicates abscence).
-
-   - The classifier made a total of 143 predictions (i.e 143 patients were being tested for the presence breast cancer).
-   - Out of those 143 cases, the classifier predicted "yes" 89 times, and "no" 50 times.
-   - In reality, 89 patients in the sample have the disease, and 50 patients do not.
+A densidade da mama é comprovadamente relacionada com o risco de desenvolvimento
+de câncer, uma vez que mulheres com uma maior densidade mamária podem esconder
+lesões, levando o câncer a ser detectado tardiamente. A escala de densidade chamada
+BIRADS foi desenvolvida pelo American College of Radiology e informa os radiologistas
+sobre a diminuição da sensibilidade do exame com o aumento da densidade da mama.
+BI-RADS definem a densidade como sendo quase inteiramente composta por gordura (densidade I),
+por tecido fibroglandular difuso (II), por tecido denso heterogênero (III) e por tecido
+extremamente denso (IV). A mamografia é a principal ferramenta de rastreio do câncer e
+radiologistas avaliam a densidade da mama com base na análise visual das imagens.
 ___
