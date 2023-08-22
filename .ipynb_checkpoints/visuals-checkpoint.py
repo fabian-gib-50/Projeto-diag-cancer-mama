@@ -6,7 +6,6 @@ import matplotlib.pyplot as plt
 import matplotlib.cm as cm
 import pandas as pd
 import numpy as np
-import seaborn as sns
 from IPython import get_ipython
 get_ipython().run_line_magic('matplotlib', 'inline')
 
